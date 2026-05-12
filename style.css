@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
 
 header {
     background-color: blue;
-    color: wh;
+    color: white;
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -33,7 +33,17 @@ nav {
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
 
 
 main {
