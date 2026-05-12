@@ -81,3 +81,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    nav {
+        display : flex;
+        flex-direction: column;
+
+    }
+    section{
+        padding: 20px;
+    }
+  
+}
